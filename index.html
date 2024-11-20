@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('https://www.smartertravel.com/wp-content/uploads/2020/03/ST_ZoomBackground_Beach03.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+        }
+    </style>
+    <script>
+        function b(event)
+        {
+            event.preventDefault();
+            window.location.href='about.html';
+        }
+        function c(event)
+        {
+            event.preventDefault();
+            window.location.href='contactus.html';
+        }
+        function d(event)
+        {
+            event.preventDefault();
+            window.location.href='login.html';
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <section class="home">
+            <div class="one">
+                <div class="left">
+                    <ul>
+                        <li>Travel Agency</li>
+
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a onclick="b(event)">About</a></li>
+                        <li><a onclick="c(event)">Contact Us</a></li>
+                        <li><a onclick="d(event)">Log In</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <div class="top">
+                    <div class="vehicle">
+                        <img src="car.jpeg" alt="" class="v1">
+                    </div>
+                    <div class="vehicle v2">
+                        <img src="bus.jpeg" alt="" class="v2">
+                    </div>
+                    <div class="vehicle v3">
+                        <img src="train.jpeg" alt="" class="v3">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h1>TRAVEL AGENCY</h1>
+                    <h3><i>Smooth & Safe Journey</i></h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html> 
